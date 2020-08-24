@@ -2,10 +2,18 @@ ul {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    background-color: crimson;
+    padding: 10px 0px;
 }
 footer {
     text-align: center;
 }
 body {
     font-family: 'Fjalla One', sans-serif;
+}
+
+
+.selected {
+    background-color: gray; 
+    padding: 10px;
 }
