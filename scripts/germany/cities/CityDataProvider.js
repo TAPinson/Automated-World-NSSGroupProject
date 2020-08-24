@@ -17,3 +17,7 @@ const cityArray = [
     }
 ]
 
+// export a function that will return a copy of the original array
+export const useCities = () => {
+    return cityArray.slice()
+};
