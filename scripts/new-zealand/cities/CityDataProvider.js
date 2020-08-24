@@ -24,4 +24,8 @@ const cityArray = [
         population: 15650
     }
     
-]
+];
+
+export const useCities = () => {
+    return cityArray.slice();
+}
