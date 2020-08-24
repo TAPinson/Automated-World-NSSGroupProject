@@ -20,3 +20,7 @@ const leaderArray = [
 
     } 
 ]
+
+export const useLeaders = () => {
+    return leaderArray.slice()
+}
