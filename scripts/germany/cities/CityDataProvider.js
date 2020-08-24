@@ -16,3 +16,4 @@ const cityArray = [
         population: 246306
     }
 ]
+
