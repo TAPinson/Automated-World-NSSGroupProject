@@ -10,7 +10,7 @@ const leaderArray = [
     {
         name: "Johann Sebastian Bach",
         origin: "Eisenach"
-    }
+    },
     {
         name: "Albert Einstein",
         origin: "Ulm"
