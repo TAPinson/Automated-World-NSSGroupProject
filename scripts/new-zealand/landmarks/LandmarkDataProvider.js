@@ -24,3 +24,7 @@ const landmarkArray = [
         location: "Canterbury"
     },
 ]
+
+export const useLandmarks = () => {
+    return landmarkArray.slice();
+}
