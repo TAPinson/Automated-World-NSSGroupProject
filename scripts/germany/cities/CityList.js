@@ -1,10 +1,10 @@
+// Code to populate cities section
 import { useCities } from './CityDataProvider.js'
 import { City } from './City.js'
 
 export const cityList = () => {
-    const element = document.querySelector("main")
+    const element = document.querySelector(".germanyMain")
     const cities = useCities()
-
     let cityHTMLRep = ""
 
     for (const city of cities) {
@@ -13,7 +13,8 @@ export const cityList = () => {
 
     element.innerHTML += `
         <section class="cityList">
-            ${cityHTMLRep}
+        <h2> Cities </h2>
+        ${cityHTMLRep}
         </section>
         `
 }
