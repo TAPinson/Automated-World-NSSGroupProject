@@ -2,7 +2,7 @@ import { useCities } from "./CityDataProvider.js";
 import { City } from "./City.js"
 
 export const cityList = () => {
-    const element = document.querySelector("main")
+    const element = document.querySelector(".newZealandMain")
     const cities = useCities()
 
     let cityHTMLRep = "";
@@ -11,7 +11,8 @@ export const cityList = () => {
     }
 
     element.innerHTML += `
-    <section class="cityList>
+    <section class="cityList">
+        <h2>Cities</h2>
         ${cityHTMLRep}
     </section>`
 }
