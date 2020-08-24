@@ -1,4 +1,4 @@
-const lankmarkArray = [
+const landmarkArray = [
     {
         name: "Neuschwanstein Castle",
         location: "Bavaria"
@@ -16,3 +16,8 @@ const lankmarkArray = [
         location: "Cologne"
     }
 ]
+
+// export a function that will return a copy of the original array
+export const useLandmarks = () => {
+    return landmarkArray.slice()
+};
