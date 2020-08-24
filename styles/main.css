@@ -1,5 +1,11 @@
 ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+footer {
+    text-align: center;
+}
+body {
+    font-family: 'Fjalla One', sans-serif;
 }
