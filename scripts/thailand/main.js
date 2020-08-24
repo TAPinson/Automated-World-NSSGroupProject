@@ -1,4 +1,6 @@
 import { cityList } from './cities/CityList.js'
+import { landmarkList } from './landmarks/LandmarkList.js'
 
 
-console.log(cityList())
+cityList()
+landmarkList()
