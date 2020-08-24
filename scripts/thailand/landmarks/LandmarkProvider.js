@@ -20,3 +20,7 @@ const landmarkArray = [
 
     } 
 ]
+
+export const useLandmarks = () => {
+    return landmarkArray.slice()
+}
