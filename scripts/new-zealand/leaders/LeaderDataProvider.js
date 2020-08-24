@@ -24,3 +24,7 @@ const leaderArray = [
         origin: "Auckland"
     },
 ]
+
+export const useLeader = () => {
+    return leaderArray.slice();
+}
