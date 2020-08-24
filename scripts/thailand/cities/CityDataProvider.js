@@ -20,3 +20,7 @@ const cityArray = [
 
     } 
 ]
+
+export const useCities = () => {
+    return cityArray.slice()
+}
