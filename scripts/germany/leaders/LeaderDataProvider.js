@@ -16,3 +16,8 @@ const leaderArray = [
         origin: "Ulm"
     }
 ]
+
+// export a function that will return a copy of the original array
+export const useLeaders = () => {
+    return leaderArray.slice()
+};
