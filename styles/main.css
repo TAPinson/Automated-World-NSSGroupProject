@@ -4,7 +4,6 @@ ul {
     justify-content: space-around;
     background-color: maroon;
     padding: 10px 0px;
-    z-index: 5;
     position: fixed;
     top: 0;
     width: 100%;
