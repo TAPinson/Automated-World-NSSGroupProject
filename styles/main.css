@@ -2,32 +2,48 @@ ul {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-    background-color: crimson;
+    background-color: maroon;
     padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 footer {
     text-align: center;
     
 }
+.logo {
+    margin-top: 3em;
+}
+.logo-main {
+    margin-top: 2em;
+}
 body {
     font-family: 'Fjalla One', sans-serif;
+    margin: 0;
 }
 .selected {
     background-color: gray; 
     padding: 10px;
 }
 footer {
-    background-color: crimson;
+    background-color: maroon;
     padding: 10px 0;
+    color: white;
+    text-shadow: 1px 1px black;
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+    text-shadow: 1px 1px black;
     padding: 10px;
 }
 
 a:hover {
-    color: white;
+    background-color: darkgray;
 }
 
 header {
@@ -62,5 +78,5 @@ input {
 }
 
 input:focus{
-    outline-color: crimson;
+    outline-color: maroon;
 }
