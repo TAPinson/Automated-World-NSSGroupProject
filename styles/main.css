@@ -45,4 +45,21 @@ p {
 }
 h2 {
     margin-block-end: 2.25em; 
+    text-align: center;
+}
+
+.searchBar {
+    text-align: center;
+    background-color: gray;
+    padding: 10px 0;
+}
+
+input {
+    width: 33%;
+    font-family: inherit;
+    height: 2em;
+}
+
+input:focus{
+    outline-color: crimson;
 }
