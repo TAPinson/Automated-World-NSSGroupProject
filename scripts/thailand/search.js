@@ -7,12 +7,12 @@ export const searchFunction = () => {
     search = main.getElementsByClassName('search');
 
         // Loop through all list items, and hide those who don't match the search query
-    for (let i = 0; i < search.length; i++) {
-        let txtValue = search[i].textContent || search[i].innerText;
+    for (let element of search) {
+        let txtValue = element.textContent || element.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            search[i].style.display = "";
+            element.style.display = "";
         } else {
-            search[i].style.display = "none";
+            element.style.display = "none";
         }
     }
 }
