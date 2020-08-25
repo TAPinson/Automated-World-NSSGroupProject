@@ -12,9 +12,32 @@ footer {
 body {
     font-family: 'Fjalla One', sans-serif;
 }
-
-
 .selected {
     background-color: gray; 
     padding: 10px;
+}
+footer {
+    background-color: crimson;
+    padding: 10px 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+}
+header {
+    text-align: center;
+}
+h3 {
+    font-size: 16px;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+p {
+    /* border-bottom: gray 2px dotted; */
+    margin-block-start: .5em;
+    margin-block-end: 3em;
+}
+h2 {
+    margin-block-end: 2.25em; 
 }

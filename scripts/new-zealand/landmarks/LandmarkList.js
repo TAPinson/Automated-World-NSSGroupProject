@@ -12,7 +12,7 @@ export const landmarkList = () => {
 
     element.innerHTML += `
     <section class="landmarkList">
-        <h2>Landmark</h2>
+        <h2>Landmarks</h2>
         ${landmarkHTMLRep}
     </section>`
 }
