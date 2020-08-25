@@ -22,8 +22,13 @@ footer {
 a {
     text-decoration: none;
     color: black;
-    padding: 10px 0;
+    padding: 10px;
 }
+
+a:hover {
+    color: white;
+}
+
 header {
     text-align: center;
 }
